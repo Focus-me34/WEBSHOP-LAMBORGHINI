@@ -1,0 +1,218 @@
+body {
+  font-family: "Roboto", arial;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: rgb(24,24,24);
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+  z-index: 10;
+  border-bottom: 3px solid black;
+}
+
+.logo-container {
+  width: 50%
+}
+
+#header-img {
+  float: left;
+  margin-left: 6%;
+  padding-top: 10px;
+}
+
+#title {
+  padding-left: 20%;
+  color: #F3F5F7;
+  font-family: "Yellowtail", monospace;
+  font-size: 2.3rem;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+li {
+  list-style: none;
+  padding: 0 20px;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #F3F5F7;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-shadow: 0px 0px 10px rgb(235, 173, 59);
+}
+
+.dark-background {
+  background-color: #181818;
+}
+
+.light-background {
+  background-color: #F3F5F7;
+}
+
+section {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+h1 {
+  font-family: "Yellowtail", monospace;
+  font-size: 4rem;
+  color: #F3F5F7;
+  text-shadow: 0px 0px 5px black;
+}
+
+#features {
+margin: 50px -2px -140px;
+height: auto;
+background: url(IMG/matt-black.jpg);
+background-repeat: no-repeat;
+background-size: center;
+/* padding: 100px 0; */
+}
+
+.feature-block {
+  margin: 100px auto;
+  width: 70%;
+  height: auto;
+  text-align: left;
+  color: #F3F5F7;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 20px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Yellowtail", monospace;
+}
+
+.feature-block p {
+  font-size: 0.8rem;
+}
+
+.svg-right, .svg-left {
+  padding: 0 40px;
+  filter: invert(93%) sepia(9%) saturate(3314%) hue-rotate(185deg) brightness(120%) contrast(93%);
+  width: 150px;
+}
+
+.svg-left {
+  float: left;
+}
+
+.svg-right {
+  float: right;
+}
+
+#presentation {
+padding-bottom: 100px;
+}
+
+#pricing {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  color: #F3F5F7
+}
+
+.models {
+  width: 100%;
+  color: black;
+}
+
+.price-box p{
+  font-family: "Yellowtail", monospace;
+  width: 100%;
+  text-align: center;
+}
+
+.price-box li {
+  line-height: 2;
+}
+
+.car-model {
+  position: relative;
+  width: 100%;
+}
+
+h3 {
+    font-family: "Yellowtail", monospace;
+}
+
+
+
+.price-box {
+  background-color: rgb(24,24,24);
+  width: 24%;
+  margin: 2% 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 300px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+#contact {
+  background-color: #181818;
+  margin-bottom: 0;
+  color: white;
+}
+
+input {
+  border-style: none;
+  border-radius: 4px;
+  width: 200px;
+  line-height: 3;
+  margin: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#submit {
+  background-color: rgb(235, 173, 59);
+  border-color: black;
+  text-transform: uppercase;
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 20px rgb(235, 173, 59);
+}
+
+/* @media screen and (max-width: 450px) {
+  a {
+  color: blue;
+  }
+  section {
+    width: 70%;
+  }
+} */
